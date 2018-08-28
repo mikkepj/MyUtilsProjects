@@ -32,9 +32,9 @@ public class Principal {
 		System.out.println("--------------------------------------------------------------------------------------------------");
 		//Clase Singleton
         InstanciaUnica ricardo = InstanciaUnica.getSingletonInstance("Ricardo Moya");
-        InstanciaUnica ramon = InstanciaUnica.getSingletonInstance("Ramón Invarato");
+        InstanciaUnica ramon = InstanciaUnica.getSingletonInstance("RamÃ³n Invarato");
         
-        // ricardo y ramon son referencias a un único objeto de la clase SoyUnico
+        // ricardo y ramon son referencias a un Ãºnico objeto de la clase SoyUnico
         System.out.println(ramon.getNombre());
         System.out.println(ricardo.getNombre()); */
 
@@ -77,7 +77,7 @@ public class Principal {
 		myInterface.startTimer();*/
 		
 		AwsUtils aws = new AwsUtils();
-		aws.amazonS3Connection("AKIAIIJG5URGER6ZC2CQ", "Z3o1A3A+0qyS9eSxLu/Kz0Sy+0L0hW/UnSzdPvYd");
+		
 		
 	}
 }
