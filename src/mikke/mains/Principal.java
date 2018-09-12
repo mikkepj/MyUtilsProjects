@@ -76,7 +76,7 @@ public class Principal {
 		/*TimerBean myInterface  = ContextUtil.getInstance().getManager();
 		myInterface.startTimer();*/
 		
-		AwsUtils aws = new AwsUtils(); //Test
+		AwsUtils aws = new AwsUtils(); //Test desde el Repo remoto
 		
 		
 	}
