@@ -34,9 +34,9 @@ public class Principal {
 		System.out.println("--------------------------------------------------------------------------------------------------");
 		//Clase Singleton
         InstanciaUnica ricardo = InstanciaUnica.getSingletonInstance("Ricardo Moya");
-        InstanciaUnica ramon = InstanciaUnica.getSingletonInstance("Ramón Invarato");
+        InstanciaUnica ramon = InstanciaUnica.getSingletonInstance("RamÃ³n Invarato");
         
-        // ricardo y ramon son referencias a un único objeto de la clase SoyUnico
+        // ricardo y ramon son referencias a un Ãºnico objeto de la clase SoyUnico
         System.out.println(ramon.getNombre());
         System.out.println(ricardo.getNombre()); */
 
@@ -88,6 +88,10 @@ public class Principal {
 		myapp.nowLocalDate(10);
 		myapp.nowLocalDateTime();
 		myapp.deceroadiez();
+
+		//AwsUtils aws = new AwsUtils(); //Test desde el Repo Local al remoto
+		
+
 		
 	}
 }
