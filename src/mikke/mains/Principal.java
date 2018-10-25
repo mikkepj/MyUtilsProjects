@@ -12,8 +12,10 @@ import com.mikke.ejbUtils.Impl.ContextUtil;
 
 import mikke.utils.Arreglos;
 import mikke.utils.AwsUtils;
+import mikke.utils.FilesUtils;
 import mikke.utils.InstanciaUnica;
 import mikke.utils.JavaPoiUtils;
+import mikke.utils.LocalDateUtils;
 
 public class Principal {
 
@@ -76,8 +78,16 @@ public class Principal {
 		/*TimerBean myInterface  = ContextUtil.getInstance().getManager();
 		myInterface.startTimer();*/
 		
-		AwsUtils aws = new AwsUtils();
-		aws.amazonS3Connection("AKIAIIJG5URGER6ZC2CQ", "Z3o1A3A+0qyS9eSxLu/Kz0Sy+0L0hW/UnSzdPvYd");
+		//AwsUtils aws = new AwsUtils();
+		
+		//FilesUtils fu = new FilesUtils();
+		
+		//fu.createTempDirectory();
+		
+		LocalDateUtils myapp = new LocalDateUtils();
+		myapp.nowLocalDate(10);
+		myapp.nowLocalDateTime();
+		myapp.deceroadiez();
 		
 	}
 }
