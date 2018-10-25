@@ -1,2 +1,15 @@
+# Eclipse
+.classpath
+.project
+.settings/
+.idea
+.metadata
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
+/build/
 /bin/
-/target/
